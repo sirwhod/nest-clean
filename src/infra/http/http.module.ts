@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common'
+import { CriptographyModule } from '../criptography/criptography.module'
 import { CreateAccountController } from './controllers/create-account.controller'
 import { AuthenticateController } from './controllers/authenticate.controller'
 import { CreateQuestionController } from './controllers/create-question.controller'
@@ -8,7 +9,6 @@ import { CreateQuestionUseCase } from '@/domain/forum/application/use-cases/crea
 import { FetchRecentQuestionsUseCase } from '@/domain/forum/application/use-cases/fetch-recent-questions'
 import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/register-student'
 import { AuthenticateStudentUseCase } from '@/domain/forum/application/use-cases/authenticate-student'
-import { CriptographyModule } from '../criptography/criptography.module'
 
 @Module({
   imports: [DatabaseModule, CriptographyModule],
