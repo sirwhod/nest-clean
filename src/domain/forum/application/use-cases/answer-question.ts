@@ -19,6 +19,7 @@ type AnswerQuestionUseCaseResponse = Either<
     answer: Answer
   }
 >
+
 @Injectable()
 export class AnswerQuestionUseCase {
   constructor(private answersRepository: AnswersRepository) {}

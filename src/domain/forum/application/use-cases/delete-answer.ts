@@ -13,6 +13,7 @@ type DeleteAnswerUseCaseResponse = Either<
   ResourceNotFoundError | NotAllowedError,
   null
 >
+
 @Injectable()
 export class DeleteAnswerUseCase {
   constructor(private answersRepository: AnswersRepository) {}
