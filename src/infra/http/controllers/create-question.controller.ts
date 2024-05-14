@@ -3,7 +3,7 @@ import { BadRequestException, Body, Controller, Post } from '@nestjs/common'
 import { ZodValidationPipe } from '@/infra/http/pipes/zod-validation-pipe'
 
 import { z } from 'zod'
-import { CurrentUser } from '@/infra/auth/current-user.decorator'
+import { CurrentUser } from '@/infra/auth/current-user-decorator'
 import { UserPayload } from '@/infra/auth/jwt.strategy'
 import { CreateQuestionUseCase } from '@/domain/forum/application/use-cases/create-question'
 

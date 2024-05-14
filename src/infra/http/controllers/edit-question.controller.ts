@@ -11,7 +11,7 @@ import { UserPayload } from '@/infra/auth/jwt.strategy'
 import { ZodValidationPipe } from '@/infra/http/pipes/zod-validation-pipe'
 import { z } from 'zod'
 import { EditQuestionUseCase } from '@/domain/forum/application/use-cases/edit-question'
-import { CurrentUser } from '@/infra/auth/current-user.decorator'
+import { CurrentUser } from '@/infra/auth/current-user-decorator'
 
 const editQuestionBodySchema = z.object({
   title: z.string(),
