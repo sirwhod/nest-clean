@@ -40,6 +40,7 @@ lerna-debug.log*
 .env
 .env.development.local
 .env.test.local
+.env.test
 .env.production.local
 .env.local
 
@@ -57,5 +58,7 @@ pids
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Files 
-chave_privada.pem
-chave_publica.pem
+private_key-base64.txt
+private_key.pem
+public_key-base64.txt
+public_key.pem

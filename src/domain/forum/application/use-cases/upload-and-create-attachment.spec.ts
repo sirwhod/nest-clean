@@ -1,4 +1,3 @@
-
 import { UploadAndCreateAttachmentUseCase } from './upload-and-create-attachment'
 
 import { InvalidAttachmentTypeError } from './errors/invalid-attachment-type-error'

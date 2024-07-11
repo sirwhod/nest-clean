@@ -63,7 +63,6 @@ import { UploadAndCreateAttachmentUseCase } from '@/domain/forum/application/use
     FetchQuestionCommentsController,
     FetchAnswerCommentsController,
     UploadAttachmentController,
-
   ],
   providers: [
     CreateQuestionUseCase,
@@ -87,4 +86,4 @@ import { UploadAndCreateAttachmentUseCase } from '@/domain/forum/application/use
     UploadAndCreateAttachmentUseCase,
   ],
 })
-export class HttpModule { }
+export class HttpModule {}

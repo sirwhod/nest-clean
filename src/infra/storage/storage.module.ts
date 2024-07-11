@@ -13,4 +13,4 @@ import { EnvModule } from '../env/env.module'
   ],
   exports: [Uploader],
 })
-export class StorageModule { }
+export class StorageModule {}
